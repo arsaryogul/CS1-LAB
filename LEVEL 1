@@ -1,0 +1,31 @@
+#question 1.
+fruits=['Orange','Grape','Watermelon','Mango']
+for item in fruits:
+  print(item)
+
+
+#question 2.
+
+
+
+
+
+
+
+#question 3.
+for i in range(1,13):
+  for j in range(1,15):
+    print(i,'X',j,'=',i*j)
+   
+   
+ #question 4
+ num = [1,2,3,4]
+square_num = [i**2 for i in num]
+print(square_num)
+
+
+#question 5
+odd_nums = [i for i in range(1,101)if i%2!=0]
+print(odd_nums)
+even_nums=[i for i in range(1,101)if i%2==0]
+print(even_nums)
