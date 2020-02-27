@@ -1,0 +1,28 @@
+#1 
+while True:
+  num = int(input("Enter a number: "))
+  if num%2==0:
+   print("Number is even")
+  elif num%2!=0:
+    print("Number is odd.")
+    
+   
+#2
+   num = int(input("Enter a number: "))
+if 0<num<10:
+  num = int(input("Enter a number: "))
+elif 10<num<20:
+  string = input("Type something: ")
+elif 20<num<100:
+    print("Your choice is between 20-100.")
+else:
+  print("Just practicing. ")
+  
+  
+#3
+  vowels = ['a','e','i','o','u']
+string = input("Type: ")
+if string is vowels:
+  print("You won!")
+else:
+    print("You lost!")
