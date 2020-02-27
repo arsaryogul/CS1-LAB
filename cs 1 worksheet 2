@@ -1,0 +1,47 @@
+#1
+def nums(x,y):
+  if x == y:
+    print("Number are similar")
+  else:
+    print("Numbers are different")
+
+nums(11,7)
+
+
+#2
+def get_third_side(a,b):
+  return(a**2+b**2)**(1/2)
+
+  print(get_third_side(4,3))
+
+
+
+#3
+firstname = input("What is your first name?:")
+lastname = input("What is your last name ?")
+print(firstname[::-1] + " " + lastname[::-1])
+
+#4
+a = int(input("Input an integer : "))
+n1 = int( "%s" % a )
+n2 = int( "%s%s" % (a,a) )
+n3 = int( "%s%s%s" % (a,a,a) )
+print (n1+n2+n3)
+
+#5
+x = input("Input the first number")
+y = input("Input the second number")
+z = input("Input the third number")
+print("Median of the above three numbers -")
+if y < x and x < z:
+ print(x)
+elif z < x and x < y:
+ print(x)
+elif z < y and y < x:
+ print(y)
+elif x < y and y < z:
+ print(y)
+elif y < z and z < x:
+ print(z)
+elif x < z and z < y:
+ print(z)
